@@ -63,7 +63,7 @@
         <option value="">select category</option>
           @foreach ($category as $item )
           <option value="{{$item ->id}}">{{$item ->name}}</option>
-          @endforeach
+          @endforeach 
        </select>
        <span style="color: red">@error('category'){{$message}}@enderror</span>
       </div>
